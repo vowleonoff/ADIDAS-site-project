@@ -13,51 +13,45 @@
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-        <header>
-            <div class="header">
-                <div class="logo">
-                    <div>
-                        <a href="#" class="logo_adidas"><img src="icons/logo.png" alt="logo"></a>
-                    </div>
-                    <div>
-                        <img src="img/burger.png" alt="burger" class="logo_hamburger">
-                    </div>
-                </div>
+    <header class="header">
+        <div class="header__logo">
+            <a href="https://www.adidas.com/us"><img src="icons/logo.png" alt="logo"></a>
+            <img src="img/burger.png" alt="burger" class="header__logo__hamburger">
+        </div>
 
-                <div class="menu">
-                    <a href="#" class="menu_link">HOME</a>
-                    <a href="#" class="menu_link">ABOUT</a>
-                    <a href="#" class="menu_link">CONTACT</a>
+        <div class="header__menu">
+            <a href="#" class="header__menu__link">HOME</a>
+            <a href="#" class="header__menu__link">ABOUT</a>
+            <a href="#" class="header__menu__link">CONTACT</a>
 
-                    <div class="language">
-                        <select>
-                            <option>ENG</option>
-                            <option>RU</option>
-                        </select>
-                    </div>
-
-                    <div class="menu_buy">
-                        <a href="#" class="buy"><img src="icons/buy.png" alt="buy"></a>
-                    </div>
-                </div>
+            <div class="change__language">
+                <select>
+                    <option>ENG</option>
+                    <option>RU</option>
+                </select>
             </div>
-        </header>
 
-        <div class="promo_block">
-            <div class="promo_block_text">
-                <h1>YUNG Z<br>OTH WB</h1>
-                <h2>Adidas Original</h2>
-                <h3>Jacket insulated from waterproof textiles</h3>
-                <button class="promo_block_button">
-                    <a href="#">buy now
-                        <img src="icons/button_arrow.png" alt="button_arrow">
-                    </a>
-                </button>
-            </div>
-            <div class="promo_block_man">
-                <img src="img/man.png" alt="man" class="man">
+            <div class="header__shopping__cart">
+                <a href="#" class="buy"><img src="icons/buy.png" alt="buy"></a>
             </div>
         </div>
+    </header>
+
+    <div class="promo__block">
+        <div class="promo__block__left">
+            <h1>YUNG Z<br>OTH WB</h1>
+            <h2>Adidas Original</h2>
+            <h3>Jacket insulated from waterproof textiles</h3>
+            <button class="promo__block__button">
+                <a href="#">buy now
+                    <img src="icons/button_arrow.png" alt="button__arrow">
+                </a>
+            </button>
+        </div>
+        <div class="promo__block__right">
+            <img src="img/man.png" alt="man" class="man">
+        </div>
+    </div>
 
 </body>
 </html>
